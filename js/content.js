@@ -40,6 +40,7 @@ function paintRoule(rouleContent) {
 
   span.innerText = `${newId} : ${rouleContent}`;
   delbtn.innerText = "❌";
+  delbtn.classList.add("delBtn");
   delbtn.addEventListener("click", deleteContent);
   li.appendChild(span);
   li.appendChild(delbtn);
@@ -57,7 +58,7 @@ function paintRoule(rouleContent) {
 
 //규칙 내용 제출
 function handleSubmit(event) {
-  event.preventDefault();
+  event.preventDefault(); //엔터를 방지한다.
   const rouleContent = rouleForm__input.value;
   paintRoule(rouleContent);
   rouleForm__input.value = "";

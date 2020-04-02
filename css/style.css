@@ -1,0 +1,24 @@
+@import "circle.css";
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+.main {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+.rouleForm {
+  margin-bottom: 20px;
+}
+
+.delBtn {
+  margin-left: 20px;
+}

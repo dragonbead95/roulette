@@ -1,0 +1,13 @@
+.roullet {
+  display: block;
+}
+
+.circle {
+  background-color: #86efef;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 12px;
+  line-height: 200px;
+}
